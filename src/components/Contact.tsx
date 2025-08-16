@@ -27,14 +27,14 @@ const Contact = () => {
     {
       icon: <Mail className="text-yellow-400" size={24} />,
       title: 'Email',
-      value: 'sherherbano.faisal@email.com',
-      link: 'mailto:sherherbano.faisal@email.com'
+      value: 'sheherbanofaisal09@gmail.com',
+      link: 'mailto:sherherbanofaisal09@email.com'
     },
     {
       icon: <Phone className="text-yellow-400" size={24} />,
       title: 'Phone',
-      value: '+92 300 1234567',
-      link: 'tel:+923001234567'
+      value: '03292377673',
+      link: 'tel:03292377673'
     },
     {
       icon: <MapPin className="text-yellow-400" size={24} />,
@@ -60,7 +60,7 @@ const Contact = () => {
     {
       icon: <Mail size={24} />,
       name: 'Email',
-      url: 'mailto:sherherbano.faisal@email.com',
+      url: 'mailto:sherherbanofaisal09@email.com',
       color: 'hover:text-red-500'
     }
   ];

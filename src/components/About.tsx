@@ -3,7 +3,7 @@ import { Award, Users, Clock, Star } from 'lucide-react';
 
 const About = () => {
   const stats = [
-    { icon: <Clock className="text-yellow-400" size={24} />, number: '5+', label: 'Years Teaching' },
+    { icon: <Clock className="text-yellow-400" size={24} />, number: '2+', label: 'Years Teaching' },
     { icon: <Users className="text-yellow-400" size={24} />, number: '500+', label: 'Students Taught' },
     { icon: <Award className="text-yellow-400" size={24} />, number: '50+', label: 'Projects Completed' },
     { icon: <Star className="text-yellow-400" size={24} />, number: '4.9', label: 'Rating' }
@@ -22,7 +22,7 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-6">
             <p className="text-lg text-gray-300 leading-relaxed">
-              I'm Sherherbano Faisal, a passionate Full Stack Developer with over 5 years of teaching experience. 
+              I'm Sherherbano Faisal, a passionate Full Stack Developer with over 2 years of teaching experience. 
               I completed my Full Stack Development course from SMIT (Saylani Mass IT Training), where I gained 
               comprehensive knowledge in modern web technologies.
             </p>

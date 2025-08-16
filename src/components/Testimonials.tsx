@@ -4,46 +4,50 @@ import { Star, Quote } from 'lucide-react';
 const Testimonials = () => {
   const testimonials = [
     {
-      name: 'Ahmed Hassan',
-      role: 'Former Student - Now Frontend Developer',
-      content: 'Sherherbano ma\'am is an exceptional teacher. Her way of explaining complex concepts in simple terms helped me land my first developer job. She is patient, knowledgeable, and truly cares about her students\' success.',
+      
+    content: `Assalam o Alaikum, miss 😊 We're doing great, thanks for asking.
+Overall our experience in SMIT has been fantastic so far. Your classes have been engaging and we appreciate the effort you put into making the material interesting and easy to understand.
+Thank you again for all your hard work, and we look forward to the rest of the semester!`,
+ 
       rating: 5,
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
     },
     {
-      name: 'Fatima Khan',
-      role: 'Full Stack Developer',
-      content: 'I learned React and Node.js from Sherherbano. Her teaching methodology is outstanding - she makes sure every student understands before moving forward. Thanks to her guidance, I\'m now working as a full-stack developer.',
-      rating: 5,
-      image: 'https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
+      // name: 'Fatima Khan',
+      // role: 'Full Stack Developer',
+content: ` salam mam,
+First of all, you are a very good teacher. You teach us like a friend and the SMIT experience is going very well. Insha Allah, very soon we will become a successful web developer if you are with us because you are a very good teacher. Your praise cannot be expressed in words. Your teaching method is very good. ❤️
+
+*Urooj Faiz Muhammad*`,      rating: 5,
+      // image: 'https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
     },
     {
-      name: 'Usman Ali',
-      role: 'Backend Developer',
-      content: 'Best instructor I\'ve ever had! Sherherbano ma\'am not only taught me coding but also helped me develop problem-solving skills. Her real-world examples and hands-on approach made learning enjoyable and effective.',
+      // name: 'Usman Ali',
+      // role: 'Backend Developer',
+content: `Peace be upon you dear teacher, I am very happy with your teaching. I remember everything you taught me and we will continue to grow in the same way. May Allah bless you always, Ameen. 😊`,
       rating: 5,
-      image: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
+      // image: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
     },
     {
-      name: 'Aisha Malik',
-      role: 'React Developer',
-      content: 'Sherherbano ma\'am is not just a teacher, she\'s a mentor. She helped me transition from a complete beginner to a confident developer. Her support extended beyond classroom hours, and she was always available for doubts.',
+      // name: 'Aisha Malik',
+      // role: 'React Developer',
+content: `A teacher is someone who can either make or destroy the future of any student in the best possible way. We are all very lucky to have a teacher who wants to make her every student a champion. جزاک اللہ`,
       rating: 5,
-      image: 'https://images.pexels.com/photos/3783725/pexels-photo-3783725.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
+      // image: 'https://images.pexels.com/photos/3783725/pexels-photo-3783725.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
     },
     {
-      name: 'Muhammad Bilal',
-      role: 'MERN Stack Developer',
-      content: 'Outstanding teacher with deep knowledge of full-stack development. Sherherbano ma\'am\'s structured approach and practical projects prepared me well for the industry. I highly recommend her to anyone wanting to learn web development.',
+      // name: 'Muhammad Bilal',
+      // role: 'MERN Stack Developer',
+content: `Assalam o Alaikum, miss 😊 We're doing great, thanks for asking. Overall, our experience in SMIT has been fantastic so far. Your classes have been engaging, and we appreciate the effort you put into making the material interesting and easy to understand.
+Thank you again for all your hard work, and we look forward to the rest of the semester! 🙏`,
       rating: 5,
-      image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
+      // image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
     },
     {
-      name: 'Zara Ahmed',
-      role: 'Frontend Developer',
-      content: 'Learning from Sherherbano was a game-changer for my career. Her patience, expertise, and dedication to student success is remarkable. She makes complex topics easy to understand and provides excellent career guidance.',
+      // name: 'Zara Ahmed',
+      // role: 'Frontend Developer',
+content: `salam Mam. My experience at SMIT is all amazing. There are very few teachers like you who explain everything in detail. I have spent three years in university, but I haven't experienced the kind of teaching like you have provided.`,
       rating: 5,
-      image: 'https://images.pexels.com/photos/3771511/pexels-photo-3771511.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
+      // image: 'https://images.pexels.com/photos/3771511/pexels-photo-3771511.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
     }
   ];
 
@@ -62,7 +66,7 @@ const Testimonials = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-yellow-400 transition-all duration-300 hover:transform hover:scale-105">
+            <div key={index} >
               <div className="flex items-center mb-4">
                 <Quote className="text-yellow-400 mr-2" size={24} />
                 <div className="flex">
@@ -77,11 +81,7 @@ const Testimonials = () => {
               </p>
               
               <div className="flex items-center">
-                <img
-                  src={testimonial.image}
-                  alt={testimonial.name}
-                  className="w-12 h-12 rounded-full object-cover mr-4"
-                />
+              
                 <div>
                   <h4 className="text-white font-semibold">{testimonial.name}</h4>
                   <p className="text-gray-400 text-sm">{testimonial.role}</p>
