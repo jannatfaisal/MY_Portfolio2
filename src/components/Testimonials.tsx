@@ -82,10 +82,10 @@ content: `salam Mam. My experience at SMIT is all amazing. There are very few te
               
               <div className="flex items-center">
               
-                <div>
+                {/* <div>
                   <h4 className="text-white font-semibold">{testimonial.name}</h4>
                   <p className="text-gray-400 text-sm">{testimonial.role}</p>
-                </div>
+                </div> */}
               </div>
             </div>
           ))}
