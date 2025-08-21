@@ -6,47 +6,47 @@ const Certificates = () => {
 
   const certificates = [
     {
-      title: 'Full Stack Web Development',
+      title: 'Mern Stack Web Development',
       issuer: 'SMIT (Saylani Mass IT Training)',
-      date: '2019',
+      date: '2025',
       description: 'Comprehensive certification in MERN stack development, covering React, Node.js, MongoDB, and Express.js',
-      image: 'https://images.pexels.com/photos/267507/pexels-photo-267507.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'
+image: '/Certificate.png'
     },
     {
-      title: 'React.js Advanced Certification',
-      issuer: 'Meta',
-      date: '2020',
+      title: 'Hackathon Certification',
+      issuer: 'SMIT (Saylani Mass IT Training)',
+      date: '2025',
       description: 'Advanced React concepts including hooks, context API, and performance optimization',
-      image: 'https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'
+      image: '/Hackathon Certificate.png'
     },
     {
-      title: 'Node.js Backend Development',
-      issuer: 'MongoDB University',
-      date: '2020',
-      description: 'Backend development with Node.js, Express.js, and MongoDB database management',
-      image: 'https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'
+      title: 'Building Modern website ',
+      issuer: 'Aptech',
+      date: '2023',
+      description: 'Bootstrap and Jaquery,UI/UX Optimize Web For Search Engines',
+      image: '/Aptech Certificate.jpeg'
     },
     {
-      title: 'Teaching Excellence Award',
-      issuer: 'Student Community',
+      title: 'Diploma Of English Language',
+      issuer: 'I Tech Institute of Technology',
       date: '2021',
-      description: 'Recognition for outstanding teaching performance and student satisfaction ratings',
-      image: 'https://images.pexels.com/photos/289737/pexels-photo-289737.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'
+      description: 'Diploma in English Language focusing on grammar, communication, and writing skills for academic and professional use',
+      image: ''
     },
-    {
-      title: 'AWS Cloud Practitioner',
-      issuer: 'Amazon Web Services',
-      date: '2022',
-      description: 'Cloud computing fundamentals and AWS services certification',
-      image: 'https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'
-    },
-    {
-      title: 'JavaScript ES6+ Mastery',
-      issuer: 'freeCodeCamp',
-      date: '2019',
-      description: 'Modern JavaScript features and advanced programming concepts',
-      image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'
-    }
+    // {
+    //   title: 'AWS Cloud Practitioner',
+    //   issuer: 'Amazon Web Services',
+    //   date: '2022',
+    //   description: 'Cloud computing fundamentals and AWS services certification',
+    //   image: 'https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'
+    // },
+    // {
+    //   title: 'JavaScript ES6+ Mastery',
+    //   issuer: 'freeCodeCamp',
+    //   date: '2019',
+    //   description: 'Modern JavaScript features and advanced programming concepts',
+    //   image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'
+    // }
   ];
 
   const nextSlide = () => {

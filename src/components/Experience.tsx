@@ -4,11 +4,11 @@ import { Calendar, MapPin, Award } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      role: 'Senior Full Stack Developer & Lead Instructor',
-      company: 'Freelance & Teaching',
-      period: '2019 - Present',
-      location: 'Remote / On-site',
-      description: 'Leading full-stack development projects while teaching and mentoring aspiring developers.',
+      role: ' Mern Stack Developer ',
+      company: 'Teaching',
+      period: '2024 - Present',
+      // location: 'Remote / On-site',
+      description: 'Leading Mern-stack development projects while teaching and mentoring aspiring developers.',
       achievements: [
         'Taught 500+ students modern web development technologies',
         'Developed 50+ full-stack applications using MERN stack',
@@ -17,22 +17,22 @@ const Experience = () => {
       ]
     },
     {
-      role: 'Full Stack Development Graduate',
+      role: 'Mern Stack Development Graduate',
       company: 'SMIT (Saylani Mass IT Training)',
-      period: '2018 - 2019',
+      period: '2024 - 2025',
       location: 'Karachi, Pakistan',
-      description: 'Completed intensive full-stack development program covering modern web technologies.',
+      description: 'Completed intensive Mern-stack development program covering modern web technologies.',
       achievements: [
         'Mastered MERN stack development',
         'Built multiple real-world projects',
-        'Earned certification in full-stack development',
+        'Earned certification in Mern-stack development',
         'Developed strong foundation in software engineering principles'
       ]
     },
     {
       role: 'Teaching Assistant & Mentor',
       company: 'Various Coding Bootcamps',
-      period: '2019 - 2023',
+      period: '2024 - 2025',
       location: 'Multiple Locations',
       description: 'Assisted in teaching web development concepts and mentored students.',
       achievements: [

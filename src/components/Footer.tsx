@@ -12,7 +12,7 @@ const Footer = () => {
               Sherherbano <span className="text-yellow-400">Faisal</span>
             </div>
             <p className="text-gray-400 leading-relaxed">
-              Full Stack Developer & Educator passionate about creating amazing web experiences 
+              Mern Stack Developer & Educator passionate about creating amazing web experiences 
               and empowering the next generation of developers.
             </p>
             <div className="flex items-center space-x-2 text-gray-400">
@@ -43,7 +43,7 @@ const Footer = () => {
             <div className="space-y-2 text-gray-400">
               <div className="flex items-center space-x-2">
                 <Code size={16} className="text-yellow-400" />
-                <span>Full Stack Development</span>
+                <span>Mern Stack Development</span>
               </div>
               <div className="flex items-center space-x-2">
                 <BookOpen size={16} className="text-yellow-400" />

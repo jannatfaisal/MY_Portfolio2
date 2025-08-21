@@ -84,7 +84,7 @@ const Contact = () => {
             <div>
               <h3 className="text-2xl font-bold text-white mb-6">Let's Connect</h3>
               <p className="text-gray-300 mb-8 leading-relaxed">
-                Whether you're looking for a skilled full-stack developer for your project, 
+                Whether you're looking for a skilled Mern-stack developer for your project, 
                 or you're interested in learning web development, I'd love to hear from you. 
                 Let's create something amazing together!
               </p>
